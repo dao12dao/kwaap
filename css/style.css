@@ -1,0 +1,113 @@
+root { 
+    display: block;
+}
+
+div.head {
+    height: auto;
+    width: auto;
+}
+
+body {
+    left: 10%;
+    right: 10%;
+    font-family: Georgia, Times, serif;
+    color: black;
+    background-color: #ffffff;
+    text-align:center;
+}
+
+#fixed {
+   position: relative;
+   margin:0 auto;
+   width:75%;   /* you can use px, em or % */
+   min-height: 520px;
+   border: 1px dotted black;
+   left: 0em;
+   right: 11em;
+   overflow: auto;
+}
+
+#content {
+    position: absolute;
+    left: 2px;
+    right: 0px;
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+#login {
+    border-top: 1px black dotted;
+    border-bottom: 1px black dotted;
+    position: relative;
+    background: bisque;
+    right: 0px;
+    left: 0px;
+    float: right;
+    width: 25%;
+}
+
+#foot {
+    font-size:small;
+    font-family: Gill, Helvetica, serif;
+    font-style: italic;
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    width: 8.5em;
+    border: 1px red
+}
+
+ul.navbar li{
+    background: #f0f0f0;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 0.5em solid black
+}
+
+ul.navbar a {
+    text-decoration: none
+}
+
+a:link {
+    color: blue
+}
+a:visited {
+    color: purple
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+}
+
+ol.navbar {
+    width: auto;
+    position:fixed;
+    bottom: 50%;
+    right: 1em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol.navbar li {
+    background: white;
+    }
+ol.navbar.li a {
+    text-decoration: none;
+}
+
+

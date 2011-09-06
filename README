@@ -1,0 +1,28 @@
+askwestion is a bulletin board system, that was designed with the following principles in mind:
+
+* KISS
+* Easy to use UI
+* Easy on bandwidth (for users with low bandwidth/limited data plans)
+* Easy to read code, with required comments/documentation
+* Use as much HTML5 and CSS3 as possible
+
+Known bugs:
+
+Wishlist:
+* User profiles 
+* User relationships
+* Karma
+
+Installation instructions:
+1. Put *all* the files in the folder askwestion somewhere in your webserver.
+2. Read the code.
+3. Edit settings.php.example so it matches your setup, and rename it to settings.php
+4. Have fun.
+
+How to contribute:
+This is a project made for the sole purpose of getting myself acquainted with PHP. If you find my code useful, don't hesitate to contribute to the code.
+
+Create a github account, fork the repository, and send me a pull request whenever you think the changes are ready.
+
+Otherwise, you can get me on irc.freenode.net, nick: execat (predictable!)
+Anuj More <anujmorex at gmail.com>
